@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Forms de cartão</title>
+</head>
+<body>
+  <div id="container">
+    <div class="card">
+      <div class="card-input">
+        <form action="">
+          <label for="">Número do cartão</label>
+          <input type="number" name="number" id="number" placeholder="Número como está no cartão" required minlength="16" maxlength="16">
+        </form>
+        <form action="">
+          <label for="">Nome do titular</label>
+          <input type="text" name="text" id="text" placeholder="Nome como está no cartão" required minlength="2">
+        </form>
+        <div class="validity">
+          <form action="">
+            <label for="">Validade</label>
+            <input type="text" name="text" id="text" placeholder="mm/aa" class="special-one" required>
+          </form>
+          <form action="">
+            <div class="security-code">
+              <label for="">CVV</label>
+              <img src="assets/images/question.svg" alt="Ícone de um ponto de interrogação">
+            </div>
+            <input type="number" name="number" id="number" placeholder="***" class="special-two" required minlength="3" maxlength="4">
+          </form>
+        </div>
+      </div>
+      <div class="card-data">
+        <img src="assets/images/card.png" alt="Imagem de um cartão de crédito de exemplo">  
+        <div class="card-text">
+          <img src="assets/images/check.svg" alt="Ícone de um check">
+          <span>Seus dados estão seguros</span>
+        </div>
+      </div>
+    </div>
+    <button>Adicionar cartão</button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: #111827;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  padding: 3.2rem;
+  width: 73.6rem;
+  height: 42rem;
+  background-color: #1F2937;
+  border: 0.1rem solid #374151;
+  border-radius: 0.8rem;
+}
+
+#container .card {
+  display: flex;
+  gap: 6.4rem;
+  width: 67.2rem;
+  height: 25.2rem;
+}
+
+#container .card .card-input {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 32.8rem;
+  height: 25.2rem;
+}
+
+#container .card .card-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  width: 28rem;
+  height: 22rem;
+  margin-top: 1.6rem;
+}
+
+#container .card .card-data .card-text {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+#container .card .card-data .card-text span {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #E5E7EB;
+}
+
+#container button {
+  width: 67.2rem;
+  height: 5.6rem;
+  background-color: #9333EA;
+  box-shadow: 0rem 0.4rem 1.6rem rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 0.4rem;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #F9FAFB;
+  cursor: pointer;
+}
+
+#container .card .card-input form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+#container .card .card-input form label {
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #E5E7EB;
+}
+
+#container .card .card-input form input {
+  padding: 1.2rem;
+  width: 32.8rem;
+  height: 4.8rem;
+  background-color: #111827;
+  color: #E5E7EB;
+  border: 0.15rem solid #374151;
+  border-radius: 0.4rem;
+}
+
+#container .card .card-input form input::placeholder {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #9CA3AF;
+}
+
+#container .card .card-input .validity {
+  display: flex;
+  gap: 1.6rem;
+}
+
+#container .card .card-input .validity form .special-one {
+  padding: 1.2rem;
+  width: 18.2rem;
+  height: 4.8rem;
+  background-color: #111827;
+  border: 0.15rem solid #374151;
+  border-radius: 0.4rem;
+}
+
+#container .card .card-input .validity form .special-two {
+  padding: 1.2rem;
+  width: 13rem;
+  height: 4.8rem;
+  background-color: #111827;
+  border: 0.15rem solid #374151;
+  border-radius: 0.4rem;
+}
+
+#container .card .card-input .validity {
+  display: flex;
+}
+
+#container .card .card-input .validity .security-code {
+  display: flex;
+  gap: 0.4rem;
+}
+
+
+  
